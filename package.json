@@ -1,0 +1,31 @@
+{
+  "name": "keyvault-configuration-resolver",
+  "version": "1.0.0",
+  "description": "Resolves custom keyvault:// URI values within an object graph using Azure KeyVault",
+  "main": "lib/index.js",
+  "engines": {
+    "node": "~6.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "keyvault",
+    "azure",
+    "configuration"
+  ],
+  "author": "Microsoft Open Source Programs Office",
+  "contributors": [
+    "Wilcox, Jeff <jwilcox@microsoft.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "adal-node": "^0.1.22",
+    "async": "^2.1.4",
+    "azure-keyvault": "^1.0.0",
+    "object-path": "^0.11.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.0"
+  }
+}
