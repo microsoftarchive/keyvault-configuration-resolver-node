@@ -1,5 +1,5 @@
 {
-  "name": "@ospo-private/keyvault-configuration-resolver",
+  "name": "@ospo/keyvault-configuration-resolver",
   "version": "0.9.0",
   "description": "Resolves custom keyvault:// URI values within an object graph using Azure KeyVault",
   "main": "lib/index.js",
