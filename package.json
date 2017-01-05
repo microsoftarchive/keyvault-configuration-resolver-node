@@ -1,7 +1,7 @@
 {
-  "name": "@ospo/keyvault-configuration-resolver",
-  "version": "0.9.4",
-  "description": "Resolves custom keyvault:// URI values within an object graph using Azure KeyVault",
+  "name": "keyvault-configuration-resolver",
+  "version": "0.9.5",
+  "description": "Resolves custom keyvault:// URI values within an object graph using Azure KeyVault for Node.js",
   "main": "lib/index.js",
   "engines": {
     "node": "~6.9.0"
@@ -13,6 +13,12 @@
     "keyvault",
     "azure",
     "configuration"
+  ],
+  "tags": [
+    "keyvault",
+    "azure",
+    "node",
+    "secrets"
   ],
   "author": "Microsoft Open Source Programs Office",
   "contributors": [
