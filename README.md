@@ -128,6 +128,9 @@ instantiated for you, along with the new method `getObjectSecrets`.
 Simply pass in the client instance as the value of a property called `client`. The client 
 will then have a `getObjectSecrets` method.
 
+You may also just pass in a KeyVault client instance. This is detected by the presence of
+a function called "getSecret" on the passed-in object.
+
 ### With an AAD client certificate
 
 _Not supported_
