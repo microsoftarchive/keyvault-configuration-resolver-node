@@ -102,11 +102,11 @@ const keyVaultConfig = {
   clientSecret: process.env.AZUREAD_CLIENT_SECRET,
 };
 
-keyVaultResolver(keyVaultConfig).getObjectSecrets(config, (resolutionError, updatedConfig) => {
+keyVaultResolver(keyVaultConfig).getObjectSecrets(config, (resolutionError) => {
   if (resolutionError) {
     throw resolutionError;
   }
-  // at this point, updatedConfig values such as updatedConfig.storage.key now have the secrets
+  // at this point, config values such as config.storage.key now have the secrets
 
   // ... continue your app work, or store in middleware
 });
