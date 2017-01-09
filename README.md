@@ -118,6 +118,8 @@ keyVaultResolver(keyVaultConfig).getObjectSecrets(config, (resolutionError) => {
 
 Pass in the `clientId` and `clientSecret` as options to the library.
 
+Alternatively, you can pass in a function called `getClientCredentials` that will be called when they are needed. `clientId` and `clientSecret` values are expected at this time.
+
 ### With an existing KeyVault credentials instance
 
 Pass in the credentials as a property called `credentials`, and the KeyVaultClient will be 
