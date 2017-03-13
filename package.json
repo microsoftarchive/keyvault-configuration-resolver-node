@@ -1,6 +1,6 @@
 {
   "name": "keyvault-configuration-resolver",
-  "version": "0.9.7",
+  "version": "1.0.0",
   "description": "Resolves custom keyvault:// URI values within an object graph using Azure KeyVault for Node.js",
   "main": "lib/index.js",
   "engines": {
@@ -22,7 +22,7 @@
   ],
   "author": "Microsoft Open Source Programs Office",
   "contributors": [
-    "Wilcox, Jeff <jwilcox@microsoft.com>"
+    "Jeff Wilcox <jwilcox@microsoft.com>"
   ],
   "license": "MIT",
   "repository": "Microsoft/keyvault-configuration-resolver-node",
