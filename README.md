@@ -25,6 +25,10 @@ Since the resolution of key vault secrets in this case requires a client ID and 
 with the client ID and secret could resolve the secrets, but for us it's enough to prevent most
 mistakes.
 
+## Limitations/ known issues
+
+- `npm-shrinkwrap.json`: shrinkwrap files may break this script
+
 ### Unofficial but useful
 
 This component was developed by the Open Source Programs Office at Microsoft. The OSPO team
