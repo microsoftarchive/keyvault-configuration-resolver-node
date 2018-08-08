@@ -161,6 +161,10 @@ with any additional questions or comments.
 
 # Changes
 
+## 1.0.1
+
+- Uses a newer KeyVault client
+
 ## 1.0.0
 
 - For each resolution call (a set of changes through the object graph), a cache of secret responses is maintained. This improves performance for apps that include many sub-secret tag values or reuse the same secret many times.
