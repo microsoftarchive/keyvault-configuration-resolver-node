@@ -161,6 +161,11 @@ with any additional questions or comments.
 
 # Changes
 
+## 1.0.3
+
+- Newer dependencies
+- Removes `eslint` dev dep
+
 ## 1.0.1
 
 - Uses a newer KeyVault client
