@@ -161,6 +161,10 @@ with any additional questions or comments.
 
 # Changes
 
+## 1.0.4
+
+- Thrown errors in validation by the key vault clients are propagated
+
 ## 1.0.3
 
 - Newer dependencies

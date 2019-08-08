@@ -1,6 +1,6 @@
 {
   "name": "keyvault-configuration-resolver",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Resolves custom keyvault:// URI values within an object graph using Azure KeyVault for Node.js",
   "main": "lib/index.js",
   "scripts": {
