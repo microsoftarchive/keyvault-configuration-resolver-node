@@ -1,4 +1,6 @@
-# Azure KeyVault configuration secrets resolver
+# Azure KeyVault configuration secrets resolver (ARCHIVED)
+
+> This package has been archived and integrated into the painless-config-resolver NPM
 
 This library extends the official Azure KeyVault client library for Node.js with a new
 method, `resolveObjectSecrets`, that takes an object graph (typically a set of configuration
